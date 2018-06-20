@@ -1,0 +1,30 @@
+{
+  "name": "hyperlist",
+  "version": "1.0.0",
+  "description": "to-do list using hyperApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankcm/HyperApp-To-Do-List.git"
+  },
+  "keywords": [
+    "hyperapp"
+  ],
+  "author": "shashank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankcm/HyperApp-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/shashankcm/HyperApp-To-Do-List#readme",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "hyperapp": "^1.2.6",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.9.2"
+  }
+}
